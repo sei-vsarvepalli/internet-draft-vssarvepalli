@@ -19,21 +19,20 @@
 # Change the file extension to match the format (.xml for XML, etc...)
 #
 ###
-title: "TODO - Your title"
-abbrev: "TODO - Abbreviation"
-category: info
+title: "IP Encapsulation within IP"
+category: std
 
-docname: draft-todo-yourname-protocol-latest
+docname: draft-ip-in-ip-protocol
 submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area: int
+workgroup: Network Working Group
 keyword:
- - next generation
- - unicorn
+ - ip-in-ip
+ - secuirty update
  - sparkling distributed ledger
 venue:
   group: WG
