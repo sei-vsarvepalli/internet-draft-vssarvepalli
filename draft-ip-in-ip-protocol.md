@@ -12,8 +12,7 @@ v: 3
 # workgroup: Network Working Group
 keyword:
  - ip-in-ip
- - secuirty update
- - sparkling distributed ledger
+ - security update to rfc2003
 venue:
 #  group: WG
 #  type: Working Group
@@ -25,7 +24,7 @@ venue:
 author:
  -
     fullname: "Vijay Sarvepalli"
-    organization: Your Organization Here
+    organization: Software Engineering Institute, Carnegie Mellon University
     email: "vssarvepalli@cert.org"
 
 normative:
