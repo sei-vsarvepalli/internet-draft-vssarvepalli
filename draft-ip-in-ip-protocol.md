@@ -2,6 +2,7 @@
 title: Blockwise transfers in CoAP
 docname: draft-ietf-core-block-05
 cat: std
+ipr: trust200902
 
 author:
       -
