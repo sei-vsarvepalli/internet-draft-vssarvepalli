@@ -8,19 +8,19 @@ number:
 date:
 consensus: true
 v: 3
-area: int
-workgroup: Network Working Group
+# area: int
+# workgroup: Network Working Group
 keyword:
  - ip-in-ip
  - secuirty update
  - sparkling distributed ledger
 venue:
-  group: WG
-  type: Working Group
-  mail: WG@example.com
-  arch: https://example.com/WG
-  github: USER/REPO
-  latest: https://example.com/LATEST
+#  group: WG
+#  type: Working Group
+#  mail: WG@example.com
+#  arch: https://example.com/WG
+  github: "sei-vsarvepalli/internet-draft-vssarvepalli"
+  latest: "https://sei-vsarvepalli.github.io/internet-draft-vssarvepalli/draft-ip-in-ip-protocol.html"
 
 author:
  -
