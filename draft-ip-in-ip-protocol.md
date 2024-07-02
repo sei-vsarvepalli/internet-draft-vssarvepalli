@@ -35,7 +35,7 @@ informative:
 
 --- abstract
 
-This document updates the {{?RFC2003}} that specifies a method by which an IP datagram may be
+This document updates the {{!RFC2003}} that specifies a method by which an IP datagram may be
 encapsulated (carried as payload) within an IP datagram with more detailed Security Considerations.
    Encapsulation is suggested as a means to alter the normal IP routing
    for datagrams, by delivering them to an intermediate destination that
