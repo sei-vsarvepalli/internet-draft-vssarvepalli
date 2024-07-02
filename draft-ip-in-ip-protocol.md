@@ -1,68 +1,143 @@
 ---
-title: "IP Encapsulation within IP"
-category: std
-
-docname: draft-ip-in-ip-protocol-latest
-submissiontype: IETF  # also: "independent", "editorial", "IAB", or "IRTF"
-number:
-date:
-consensus: true
-v: 3
-# area: int
-# workgroup: Network Working Group
-keyword:
- - ip-in-ip
- - security update to rfc2003
-   
-venue:
-#  group: WG
-#  type: Working Group
-#  mail: WG@example.com
-#  arch: https://example.com/WG
-  github: "sei-vsarvepalli/internet-draft-vssarvepalli"
-  latest: "https://sei-vsarvepalli.github.io/internet-draft-vssarvepalli/draft-ip-in-ip-protocol.html"
+title: Blockwise transfers in CoAP
+docname: draft-ietf-core-block-05
+cat: std
 
 author:
- -
-    fullname: "Vijay Sarvepalli"
-    organization: Software Engineering Institute, Carnegie Mellon University
-    email: "vssarvepalli@cert.org"
+      -
+        ins: J. Author
+        name: John Q. Author
+        org: Yoyodyne, Inc.
+        abbrev: Yoyodyne
+        street:
+          - 123 Main St.
+          - 56th Floor
+        city: Anywhere
+        code: 12345
+        country: USA
+        phone: +1-999-555-1212
+        facsimile: +1-999-555-1212
+        email: jauthor@example.invalid
+        uri: https://example.invalid/jauthor
 
 normative:
+  RFC2119:
+  I-D.ietf-core-coap:
 
 informative:
+  REST:
+    title: Architectural Styles and the Design of Network-based Software Architectures
+    author:
+        ins: R. Fielding
+        name: Roy Fielding
+        org: University of California, Irvine
+    date: 2000
+
+--- note Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
 
 
 --- abstract
 
-TODO Abstract
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
 
 
 --- middle
 
-# Introduction
+Introduction
+============
 
-TODO Introduction
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+Lorem ipsum
+-----------
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+### Lorem ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+### Blockquote
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+> This is a blockquoted paragraph.  And some more.
+> And some more.  And some more.  And some more.  And some more.
+> And some more.  And some more.  And some more.  And some more.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+### Section with a very long title that will overflow the bounds of both the rendering and the table of contents
+
+# Lists
+
+* Item1
+* Item2
+  * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+  * ItemB
+* Item3
+
+This is a different block to separate the lists.
+
+1. Item1
+1. Item2
+  1. ItemA
+  1. ItemB
+1. Item3
 
 
-# Conventions and Definitions
+# Figures
 
-{::boilerplate bcp14-tagged}
+~~~~~~~~~~
+       _,--._.-,           
+      /\_r-,\_ )           
+   .-.) _;='_/ (.;         
+    \ \'     \/S )         
+     L.'-. _.'|-'          
+    <_`-'\'_.'/            
+      `'-._( \             
+             \\       ___  
+              \\   .-'_. / 
+               \\ /.-'_.'  
+                \('--'	   
+                  \        
+~~~~~~~~~~
+{: #rose title="A Rose" alt="rose" }
 
+
+# Tables
+
+| Left-aligned | Center-aligned | Right-aligned|
+| :-- | :--:|----:|
+| Alpha | Bravo | Charlie |
+| delta | echo | foxtrot |
+| --- | --- | --- |
+| xylophone | yankee | zulu |
+{: #exampleTable title="Example Table"}
+
+# References {#refstyle}
+
+The IETF documents referred to here are [](RFC2119) and [](I-D.ietf-core-coap).  We also refer to [REST](REST).  [](a-rose) and [](exampleTable) are explicitly tagged, as is [](refstyle), but [](security-considerations) is implicit.  The web page at [ipv.sx](http://ipv.sx/) is not part of this document.
 
 # Security Considerations
 
-TODO Security
-
+No, really.
 
 # IANA Considerations
 
-This document has no IANA actions.
+Seriously?
 
 
 --- back
 
-# Acknowledgments
-{:numbered="false"}
+# Lorem ipsum
 
-TODO acknowledge.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nibh mi, mollis varius imperdiet id, venenatis ut nisi. Phasellus mauris urna, ultrices at massa id, faucibus malesuada nisi.
+
+
