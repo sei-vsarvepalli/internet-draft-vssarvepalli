@@ -1,6 +1,6 @@
 ---
 title: Blockwise transfers in CoAP
-docname: draft-ietf-core-block-05
+docname: draft-ip-in-ip-protocol-latest
 cat: std
 ipr: trust200902
 
@@ -22,17 +22,8 @@ author:
         uri: https://example.invalid/jauthor
 
 normative:
-  RFC2119:
-  I-D.ietf-core-coap:
 
 informative:
-  REST:
-    title: Architectural Styles and the Design of Network-based Software Architectures
-    author:
-        ins: R. Fielding
-        name: Roy Fielding
-        org: University of California, Irvine
-    date: 2000
 
 --- note Lorem Ipsum
 
@@ -92,35 +83,6 @@ This is a different block to separate the lists.
   1. ItemB
 1. Item3
 
-
-# Figures
-
-~~~~~~~~~~
-       _,--._.-,           
-      /\_r-,\_ )           
-   .-.) _;='_/ (.;         
-    \ \'     \/S )         
-     L.'-. _.'|-'          
-    <_`-'\'_.'/            
-      `'-._( \             
-             \\       ___  
-              \\   .-'_. / 
-               \\ /.-'_.'  
-                \('--'	   
-                  \        
-~~~~~~~~~~
-{: #rose title="A Rose" alt="rose" }
-
-
-# Tables
-
-| Left-aligned | Center-aligned | Right-aligned|
-| :-- | :--:|----:|
-| Alpha | Bravo | Charlie |
-| delta | echo | foxtrot |
-| --- | --- | --- |
-| xylophone | yankee | zulu |
-{: #exampleTable title="Example Table"}
 
 # References {#refstyle}
 
